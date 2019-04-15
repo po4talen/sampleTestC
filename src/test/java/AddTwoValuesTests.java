@@ -9,7 +9,7 @@ import static junit.framework.TestCase.assertEquals;
  */
 
 
-public class AddTwoValuesTests {
+public class AddTwoValuesTest {
 
     Calculator calc = new Calculator();
 
