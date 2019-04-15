@@ -37,7 +37,7 @@ public class AddTwoValuesTests {
 
     @Test
     public void testDivTwoPositiveValues(){
-        assertEquals("10 / 2 must be 5", 5.0, calc.division(10, 2));
+        assertEquals("10 / 2 must be 5", 5.0, calc.division(10, 0));
     }
 
     @Test
@@ -61,7 +61,7 @@ public class AddTwoValuesTests {
     }
 
     @Test
-    public void pov(){
+    public void testpovTwoValues(){
         assertEquals("pov 2 ^ 6  must be 32.0", 32.0, calc.pov(2, 5));
     }
     @After
