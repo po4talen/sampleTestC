@@ -1,7 +1,6 @@
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import sun.plugin2.message.Message;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -37,7 +36,7 @@ public class AddTwoValuesTests {
 
     @Test
     public void testDivTwoPositiveValues(){
-        assertEquals("10 / 2 must be 5", 5.0, calc.division(10, 0));
+        assertEquals("10 / 2 must be 5", 5.0, calc.division(10, 2));
     }
 
     @Test
