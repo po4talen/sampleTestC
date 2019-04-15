@@ -9,7 +9,7 @@ import static junit.framework.TestCase.assertEquals;
  */
 
 
-public class AddTwoValuesTest {
+public class AddTwoValuesTests {
 
     Calculator calc = new Calculator();
 
@@ -61,7 +61,7 @@ public class AddTwoValuesTest {
 
     @Test
     public void testpovTwoValues(){
-        assertEquals("pov 2 ^ 6  must be 32.0", 32.0, calc.pov(2, 5));
+        assertEquals(" pov 2 ^ 6  must be 32.0", 32.0, calc.pov(2, 5));
     }
     @After
     public void consolePrintAfter() {
